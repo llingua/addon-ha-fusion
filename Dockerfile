@@ -7,9 +7,8 @@ WORKDIR /app
 
 ### remote
 # clone, build and remove repo example data
-# ARG BRANCH will be passed from run.sh based on user configuration
-ARG BRANCH=main
-RUN git clone --depth 1 -b ${BRANCH} https://github.com/llingua/ha-fusion-custom . && \
+# This add-on always installs from main branch (stable)
+RUN git clone --depth 1 -b main https://github.com/llingua/ha-fusion-custom . && \
   npm install --verbose && \
   npm run build && \
   npm prune --omit=dev && \

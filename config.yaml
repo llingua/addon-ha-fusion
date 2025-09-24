@@ -13,14 +13,10 @@ init: false
 
 # configuration schema
 options:
-  branch:
-    name: Branch Version
-    description: Choose between stable (main) or development (develop) branch
   log_level:
     name: Log Level
     description: Set the logging level for the add-on
 schema:
-  branch: list(main|develop)?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
 
 # homepage of the add-on
