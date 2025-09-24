@@ -14,6 +14,17 @@ Versione personalizzata: <https://github.com/llingua/ha-fusion-custom>
 - **Click to edit**: Modifica direttamente dal dashboard
 - **Riutilizzabile**: Stesso componente per sidebar e main
 
+### ✅ Anti-Conflitto
+
+Questo add-on è progettato per evitare conflitti con altre installazioni di ha-fusion:
+
+- **🌐 Porta Unica**: Usa la porta 8090 (invece della 8099 standard)
+- **📁 Slug Unico**: `ha_fusion_custom` (diverso da installazioni standard)
+- **🗂️ Dati Separati**: Directory di configurazione prefissata con `ha-fusion-custom`
+- **🏷️ Nome Distintivo**: "HA Fusion Custom" facilmente riconoscibile
+
+> ✅ **Sicuro**: Può essere installato insieme ad altre versioni di ha-fusion senza problemi
+
 ### 📖 Come usare la nuova funzionalità Bar
 
 1. **Entra in modalità edit** (icona matita)
