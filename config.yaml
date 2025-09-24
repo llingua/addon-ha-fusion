@@ -1,8 +1,8 @@
 # required configuration options
-name: Fusion
-version: 2024.10.1
-slug: ha_fusion
-description: A modern, easy-to-use and performant custom Home Assistant dashboard
+name: HA Fusion Custom
+version: 2024.10.0-custom
+slug: ha_fusion_custom
+description: Dashboard personalizzato con componente Bar universale per sidebar e main
 arch:
   - aarch64
   - amd64
@@ -12,10 +12,10 @@ arch:
 init: false
 
 # homepage of the add-on
-url: https://github.com/matt8707/addon-ha-fusion
+url: https://github.com/llingua/ha-fusion-custom
 
 # icon for the menu panel integration
-panel_icon: mdi:atom
+panel_icon: mdi:view-dashboard-variant
 
 # allow non-administration users
 panel_admin: false
