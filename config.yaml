@@ -1,6 +1,6 @@
 # required configuration options
 name: HA Fusion Custom
-version: 2024.10.0-custom-dev
+version: 2025.09.0-custom
 slug: ha_fusion_custom
 description: Dashboard personalizzato con componente Bar universale per sidebar e main
 arch:
@@ -10,6 +10,18 @@ arch:
 
 # disable the docker default system init
 init: false
+
+# configuration schema
+options:
+  branch:
+    name: Branch Version
+    description: Choose between stable (main) or development (develop) branch
+  log_level:
+    name: Log Level
+    description: Set the logging level for the add-on
+schema:
+  branch: list(main|develop)?
+  log_level: list(trace|debug|info|notice|warning|error|fatal)?
 
 # homepage of the add-on
 url: https://github.com/llingua/ha-fusion-custom
