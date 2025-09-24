@@ -1,6 +1,6 @@
 # required configuration options
 name: HA Fusion Custom
-version: 2024.10.0-custom
+version: 2024.10.0-custom-dev
 slug: ha_fusion_custom
 description: Dashboard personalizzato con componente Bar universale per sidebar e main
 arch:
