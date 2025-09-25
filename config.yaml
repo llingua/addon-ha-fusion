@@ -45,4 +45,4 @@ ports:
   8090/tcp: null
 
 # docker hub
-image: lorenzoy3k/addon-ha-fusion-{arch}
+image: lorenzoy3k/addon-ha-fusion-{arch}:latest
