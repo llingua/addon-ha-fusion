@@ -1,9 +1,11 @@
-name: "Publish"
+name: "Publish (DISABLED)"
 
+# DISABILITATO: Sostituito da build.yml che funziona correttamente
+# Questo workflow genera tag non compatibili con il nostro formato
 on:
-  workflow_dispatch:
-  push:
-    branches: ["main"]
+  # workflow_dispatch:
+  # push:
+  #   branches: ["main"]
 
 jobs:
   publish:
